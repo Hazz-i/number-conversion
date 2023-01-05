@@ -1,0 +1,42 @@
+﻿  konversi.cpp
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(9,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(27,20): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(80,30): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(82,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(84,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(86,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(88,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(90,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\FinalProject Semester 1\FinalProject Semester 1\rekursif.h(92,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4145,9): error C2679: binary '=': no operator found which takes a right-hand operand of type 'in_bin' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3304,32): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3296,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3244,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3169,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(3054,32): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4132,1): message : while trying to match the argument list '(std::string, in_bin)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(4152): message : see reference to function template instantiation '_OutIt std::_Copy_unchecked<in_bin*,_OutIt>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::string *,
+              _InIt=in_bin *
+          ]
+D:\FinalProject Semester 1\FinalProject Semester 1\konversi.cpp(450): message : see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::string*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::string *,
+              _Ty=in_bin,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<in_bin>>>
+          ]
