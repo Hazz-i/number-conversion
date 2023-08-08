@@ -2,4 +2,6 @@
 merupakan seubah program untuk mengkonversi bilangan Binner - Desimal - Oktal - HexaDesimal 
 
 cara implementasi kode:
-- copy 
+- Copy code pada konversi.cpp
+- Buat file baru dan copy code dalam fungsi.cpp
+-
