@@ -2,6 +2,9 @@
 merupakan seubah program untuk mengkonversi bilangan Binner - Desimal - Oktal - HexaDesimal 
 
 cara implementasi kode:
-- Copy code pada konversi.cpp
-- Buat file baru dan copy code dalam fungsi.cpp
--
+- main content "konversi.cpp"
+- function "color.h" (warna)
+- function "menu.cpp" (menu arrowkey)
+- function "interface.cpp" (extension tampilan)
+- function "rekursif.h" (rekursif)
+  
